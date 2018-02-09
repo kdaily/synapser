@@ -42,7 +42,7 @@ then
   check_library libssl
   check_library libcurl
 
-  check_package zlib1g
+  # check_package zlib1g
 fi
 
 export PWD_FROM_R=${ALT_PWD-`pwd`}
